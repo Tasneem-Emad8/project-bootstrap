@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>bootstrap-project</title>
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid nav-container">
+              <img src="img/png-clipart-switzerland-national-football-team-2018-fifa-world-cup-sport-switzerland-flag-rectangle.png" alt="logo" >
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav-uls" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown mx-2">
+                    <a class="nav-link dropdown-toggle border border-info rounded trips-nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span>T</span>rips
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Switzerland</a></li>
+                      <li><a class="dropdown-item" href="#">Zermatt</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Zurich</a></li>
+                      <li><a class="dropdown-item" href="#">Geneva</a></li>
+                      <li><a class="dropdown-item" href="#">Lucerne</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">About</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2 border border-primary" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-primary" type="submit">Search</button>
+                 
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  login
+</button>
+                </form>
+              </div> <!-- /nav-uls -->
+            </div> <!-- /nav-container -->
+          </nav>
+          <!-- Modal -->
+           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content ">
+      <div class="modal-header foorm-bg">
+        <h5 class="modal-title text-secondary" id="exampleModalLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> <!-- /modal-header -->
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label foorm">Email address</label>
+            <input type="email" class="form-control foorm-border" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label  foorm">Password</label>
+            <input type="password" class="form-control foorm-border" id="exampleInputPassword1">
+          </div>
+          <div class="form-check form-switch mb-3 ms-4">
+              <input class="form-check-input foorm-bg" type="checkbox" id="flexSwitchCheckChecked" checked>
+              <label class="form-check-label  foorm" for="flexSwitchCheckChecked">Remember me</label>
+            </div>
+          <hr>
+          <button type="submit" class="btn btn-primary border-0 foorm-bg">login</button>         
+          <button type="button" class="btn btn-primary foorm-bg border-0 btnclose" data-bs-dismiss="modal">Close</button>
+        </form>
+      </div> <!-- /modal-body -->
+    </div> <!-- /modal-content -->
+  </div> <!-- /modal-dialog -->
+            </div> <!-- /modal -->
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+            </div> <!-- /carousel-indicators -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/How-to-Apply-for-Switzerland-Schengen-Visa-copy.webp" class="d-block w-100 carousel-img " alt="...">
+                <div class="carousel-caption  mx-auto text-light ">
+                  <h3>Zurich</h3>
+                  <p>Thank You , Zurich</p>
+                  <button class="btn text-light">visit Us</button>
+                </div> <!-- /carousel-caption -->
+              </div> <!-- /carousel-item -->
+              <div class="carousel-item ">
+                <img src="img/8dd44a09-f6e4-4156-8fbd-9aea375d5089.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption mx-auto">
+                  <h3>Geneva</h3>
+                  <p>Thank You , Geneva</p>
+                  <button class="btn text-light border-0">visit Us</button>
+                </div> <!-- /carousel-caption -->
+              </div> <!-- /carousel-item -->
+              <div class="carousel-item ">
+                <img src="img/swess.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption mx-auto">
+                  <h3>Lucerne</h3>
+                  <p>Thank You , Lucerne</p>
+                  <button class="btn text-light  border-0">visit Us</button>
+                </div> <!-- /carousel-caption -->
+              </div> <!-- /carousel-item -->
+              <div class="carousel-item ">
+                <img src="img/sesss.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption mx-auto">
+                  <h3>Interlaken</h3>
+                  <p>Thank You , Interlaken</p>
+                  <button class="btn text-light  border-0">visit Us</button>
+                </div> <!-- /carousel-caption -->
+              </div> <!-- /carousel-item -->
+            </div> <!-- /carousel-inner -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+           
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> <!-- /carousel slide -->
+
+          <div class="icon-div" style="position: fixed;">
+            <ul>
+              <li> <a href="#" class="text-info"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#" class="text-info"><i class="fab fa-instagram-square"></i></a></li>
+               <li> <a href="#" class="text-info"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#" class="text-info"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="#" class="text-info"><i class="fab fa-whatsapp-square"></i></a></li>
+            </ul>
+          </div> <!-- /icon-div -->
+
+          <section class="sec1">
+            <div class="sec1-div  p-4">
+              <h2 class="text-dark">Welcome</h2>
+              <p class="text-light">Are you planning to visit Switzerland ? We offer ultimate tour in Switzerland from a one day trip to 10  days dream vacation , open 24/7 customer survice </p>
+              <button class="btn btn-light text-primary border-5">Learn more</button>
+            </div> <!-- /sec1-div -->
+          </section>
+           <hr>
+
+           <section class="sec2">
+            <div class="sec2-parent">
+          <div class="popular-places text-center text-light rounded-3">
+            <h2 class="pt-5">popular destination in Switzerland</h2>
+           </div> <!-- / popular-places-->
+
+            <div class="accordion accordion-flush mt-3" id="accordionFlushExample">
+              <div class="accordion-item ">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed text-info shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Zurich City
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Zurich is one of the most important and largest cities in Switzerland. It is located in the center of the north of the country, close to the German border on Lake Zurich. The city is famous for its banking companies, which are ranked the best in the world. The Swiss city of Zurich has been voted the best city to live in the world for three years in a row.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed text-info shadow-lg" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Zermatt City
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Zermatt is a small tourist village in southern Switzerland on the border with Italy. Zermatt is located in the Alps and is close to the famous Matterhorn, which is pictured on Toblerone chocolate wrappers. The village is home to more than 5,000 people and is more than 1,600 meters above sea level.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed text-info shadow-lg" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    basel City
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Basel is a city in northwestern Switzerland on the Rhine River. Basel is the third largest city in Switzerland, with a population of 177,595 within the city limits. The official language in Basel is Swiss Standard German, and the main spoken language is the local Basel German dialect.</div>
+                </div>
+              </div>
+            </div>
+
+          
+        </div> <!-- /sec2-parent -->
+              </section> <!-- / sec2-->
+           <hr>
+
+      <section class="sec3">
+        <div class="sec3-parent my-3">
+            <div class="sec3-title  mt-3 text-center text-light pt-2">
+              <h2 class="title3">Translate from arabic to Italian</h2>
+            </div> <!-- /sec3-title -->
+            <div class="sec3-info p-5">
+            <h3 class="text-light">write and translate <a href="#">press Here</a></h3>   
+                <button type="button" class="btn btn-primary" id="popoverButton" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="copied">
+                  copy
+                 </button> 
+                 <br>
+                 <textarea name="" id="" placeholder=" translate" class="sec3-place my-4 w-100 bg-light"></textarea>
+               </div>
+        </div> <!-- /sec3-parent -->
+           <hr>
+        <div class="sec3-parent my-3">
+          <div class="sec3-title  mt-3 text-center text-light pt-2 ">
+            <h2 class="title3">Translate from arabic to german</h2>
+          </div>
+          <div class="sec3-info p-5">
+          <h3 class="text-light">write and translate <a href="#">press Here</a></h3>
+          
+          <button type="button" class="btn btn-primary" id="popoverButton_1" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="copied">
+            copy
+      </button> 
+
+          <br>
+          <textarea name="" id="" placeholder=" translate" class="sec3-place my-4 w-100 bg-light"></textarea>
+        </div>
+      </div> <!-- /sec3-parent -->
+        <hr>
+      <div class="sec3-parent my-3">
+        <div class="sec3-title  mt-3 text-center text-light pt-2 ">
+          <h2 class="title3">Translate from arabic to french</h2>
+        </div>
+        <div class="sec3-info p-5">
+        <h3 class="text-light">write and translate <a href="#">press Here</a></h3>
+        
+        <button type="button" class="btn btn-primary" id="popoverButton_2" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="copied">
+          copy
+    </button> 
+        <br>
+        <textarea name="" id="" placeholder=" translate" class="sec3-place my-4 w-100 bg-light"></textarea>
+      </div>
+    </div> <!-- /sec3-parent -->
+      </section> <!-- /sec3 -->
+
+      <div class="modal fade" id="exampleModal_1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">TasneemEmad developer want to say. </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ms-auto">
+                    <h5 class="text-center">تم نسخ النص</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <div class="div-img"></div>
+       <hr>
+      <section class="sec4">
+        <div class="sec4-parent">
+          <div class="title4 text-center mt-4 pt-5">
+            <h2 class="sec4-title text-light">Popular Destination In Switzerland</h2>
+          </div> <!-- /title4 -->
+          <div class="container-sm container-lg">
+          <div class="row mt-4 card-parent ">
+            <div class="col-12  col-md-6 col-lg-4 my-3 ">
+              <div class="card" style="width: 18rem;">
+                <img src="img/zeorkh.jpg" class="card-img-top pe-2 ps-2 " alt="...">
+                <div class="card-body text-info">
+                  <h5 class="card-title">Zurich</h5>
+                  <a href="#" class="btn btn-primary btn-card">Know More</a>
+                  <p class="card-text mt-2">The largest cities in Switzerland.</p>
+                </div> <!-- /card-body -->
+              </div> <!-- /card -->
+            </div> <!-- /col -->
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+              <div class="card" style="width: 18rem;">
+                <img src="img/geneva-water-fountain_square.jpg" class="card-img-top pe-2 ps-2 " alt="...">
+                <div class="card-body text-info">
+                  <h5 class="card-title">Geneva</h5>
+                  <a href="#" class="btn btn-primary btn-card">Know More</a>
+                  <p class="card-text mt-2">Capital of the canton of Geneva.</p>
+                </div> <!-- /card-body -->
+              </div> <!-- /card -->
+            </div> <!-- /col -->
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+              <div class="card" style="width: 18rem;">
+                <img src="img/25392759.jpg" class="card-img-top pe-2 ps-2 " alt="...">
+                <div class="card-body text-info">
+                  <h5 class="card-title">Zermatt</h5>
+                  <a href="#" class="btn btn-primary btn-card">Know More</a>
+                  <p class="card-text mt-2">Hotel in Zermatt</p>
+                </div> <!-- /card-body -->
+              </div> <!-- /card -->
+            </div> <!-- /col -->
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+              <div class="card" style="width: 18rem;">
+                <img src="img/normally-picture-from.jpg" class="card-img-top pe-2 ps-2 " alt="...">
+                <div class="card-body text-info">
+                  <h5 class="card-title">Basel</h5>
+                  <a href="#" class="btn btn-primary btn-card">Know More</a>
+                  <p class="card-text mt-2">The third largest city in Switzerland</p>
+                </div> <!-- /card-body -->
+              </div> <!-- /card -->
+            </div> <!-- /col -->
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+              <div class="card" style="width: 18rem;">
+                <img src="img/525624095.jpg" class="card-img-top pe-2 ps-2 " alt="...">
+                <div class="card-body text-info">
+                  <h5 class="card-title">Moritz</h5>
+                  <a href="#" class="btn btn-primary btn-card">Know More</a>
+                  <p class="card-text mt-2">Swiss municipality located in the canton of Graubünden</p>
+                </div> <!-- /card-body -->
+              </div> <!-- /card -->
+            </div> <!-- /col -->
+            <div class="col-12 col-md-6 col-lg-4 my-3">
+              <div class="card" style="width: 18rem;">
+                <img src="img/bern-3077305_1920.jpg" class="card-img-top pe-2 ps-2 " alt="...">
+                <div class="card-body text-info">
+                  <h5 class="card-title">Bern</h5>
+                  <a href="#" class="btn btn-primary btn-card">Know More</a>
+                  <p class="card-text mt-2">Administrative capital of Switzerland</p>
+                </div> <!-- /card-body -->
+              </div> <!-- /card -->
+            </div> <!-- /col -->
+             <div class="d-flex row justify-content-around">
+            <div class="col-12 col-md-6 col-lg-4 my-3 card-7 ">
+              <div class="card " style="width: 18rem;">
+                <img src="img/img3.jpg" class="card-img-top pe-2 ps-2 " alt="...">
+                <div class="card-body text-info">
+                  <h5 class="card-title">Grindelf</h5>
+                  <a href="#" class="btn btn-primary btn-card">Know More</a>
+                  <p class="card-text mt-2">Village and municipality located within the canton of Interlaken</p>
+                </div> <!-- /card-body -->
+              </div> <!-- /card -->
+            </div> <!-- /col -->
+            <div class="col-12 col-md-6 col-lg-4 my-3  ">
+              <div class="card" style="width: 18rem;">
+                <img src="img/1981292.jpg" class="card-img-top pe-2 ps-2 " alt="...">
+                <div class="card-body text-info">
+                  <h5 class="card-title">Lausann</h5>
+                  <a href="#" class="btn btn-primary btn-card">Know More</a>
+                  <p class="card-text mt-2">Located in the French-speaking part of Switzerland.</p>
+                </div> <!-- /card-body -->
+              </div> <!-- /card -->
+            </div> <!-- /col -->
+          </div> <!-- /d-flex -->
+          </div>
+        </div> <!-- /container -->
+        </div>
+      </section>
+      <div class="div-img"></div>
+       <hr>
+      <section class="sec5">
+        <div class="popular-places thanks text-center text-light rounded-3 ">
+          <h2 class="pt-2">THANKS FOR</h2>
+         </div> <!-- / popular-places-->
+        <div class="container">
+          <div class="sec5-parent row text-light mt-4 ">
+             <div class="sec5-img col-12 col-lg-3">
+              <div class="sec5-overlay ">
+              </div> <!-- /sec5-overlay -->
+              <div class="sec5-img-info ">
+                <h4 class="title5 mt-4">all thanks and appreciation</h4>
+                <i class="fas fa-clock sec5-img-info-i d-block"> October 15 , 2020</i>
+                <img src="img/Remote project manager.jpg" width="100" height="120" alt="" class="img5 border ">
+                <p>M.Tasneem Emad <br> CEO of the company</p>
+            </div> <!-- /sec5-img-info -->
+             </div> <!-- /sec5-img -->
+
+             <div class="sec5-img sec5-img2 col-12 col-lg-3">
+              <div class="sec5-overlay">
+              </div> <!-- /sec5-overlay -->
+              <div class="sec5-img-info">
+                  <h4 class="title5  mt-4">all thanks and appreciation</h4>
+                  <i class="fas fa-clock sec5-img-info-i d-block"> October 15 , 2020</i>
+                  <img src="img/4d7a4c5a453f241da99432c5fc90b620.jpg"  width="100" height="120" alt="" class="img5 border">
+                  <p>Eng.Ahmad Emad <br> Engineer of the company</p>
+              </div> <!-- /sec5-img-info -->
+           </div> <!-- /sec5-img -->
+
+           <div class="sec5-img sec5-img3 col-12 col-lg-3">
+            <div class="sec5-overlay">
+            </div> <!-- /sec5-overlay -->
+            <div class="sec5-img-info">
+                <h4 class="title5  mt-4">all thanks and appreciation</h4>
+                <i class="fas fa-clock sec5-img-info-i d-block"> October 15 , 2020</i>
+                <img src="img/4008b900de9d0f325fdb856f352058f4.jpg"  width="100" height="120" alt="" class="img5 border">
+                <p>D. Emad Zourob <br> CEO of the company</p>
+            </div> <!-- /sec5-img-info -->
+         </div> <!-- /sec5-img -->
+          </div> <!-- /sec5-parent -->
+        </div> <!-- /container -->
+        <p class="mt-5">/thanks card ==></p>
+      </section>
+       
+      <hr>
+      <section class="sec6">
+        <h2 class="text-center title6 mx-auto pb-2 mt-4 w-25 ">Switzerland News</h2>
+        <div class="sec6-parentt container">
+        <div class=" sec6-parent border rounded mx-auto row my-1">
+          <div class="sec6-info col-12 col-lg-8 p-4 ">
+             <h4 class="sec6-title1">Podcast title</h4>
+             <div class="sec6-date  pb-2 w-25 ">
+              <i class="fas fa-calendar-alt "> Mon,May 25th 2020</i>
+              <div class="sec6-line w-50 bg-primary mt-2"></div>
+             </div> <!-- /sec6-date -->
+              <p class="sec6-p mb-5">Switzerland is considered an unparalleled tourism destination for those who want to enjoy natural scenery, which varies between the towering Alps, sparkling lakes, international museums and natural landscapes, as there is a diversity that suits different categories, although there is no small country in area, but it is full of tourist attractions, as tourism in Switzerland enjoys...</p>
+              <span class="sec6-span bg-secondary p-1 border rounded"><i class="fas fa-tag"></i>Podcast</span>
+              <span class="sec6-span bg-secondary p-1 border rounded"><i class="fas fa-clock"></i>55 mins</span>
+              <span class="sec6-span sec6-span3 bg-secondary p-1 border rounded"><i class="fas fa-play"></i>Play Episode</span>
+            </div> <!-- /sec6-info -->
+            <div class="sec6-img col-12 col-lg-4 "></div> <!-- /sec6-img -->
+        </div> <!-- /sec6-parent -->
+
+        <div class=" sec6-parent border rounded mx-auto row my-5">
+          <div class="sec6-img1 sec6-img2 col-12 col-lg-4"></div> <!-- /sec6-img -->
+          <div class="sec6-info col-12 col-lg-8 p-4">
+             <h4 class="sec6-title1">Podcast title</h4>
+             <div class="sec6-date  pb-2 w-25 ">
+              <i class="fas fa-calendar-alt"> Mon,May 25th 2020</i>
+              <div class="sec6-line w-50 bg-info mt-2"></div>
+             </div> <!-- /sec6-date -->
+              <p class="sec6-p  mb-5">Switzerland is considered an unparalleled tourism destination for those who want to enjoy natural scenery, which varies between the towering Alps, sparkling lakes, international museums and natural landscapes, as there is a diversity that suits different categories, although there is no small country in area, but it is full of tourist attractions, as tourism in Switzerland enjoys...</p>
+              <span class="sec6-span bg-secondary p-1 border rounded"><i class="fas fa-tag"></i>Podcast</span>
+              <span class="sec6-span bg-secondary p-1 border rounded"><i class="fas fa-clock"></i>55 mins</span>
+              <span class="sec6-span sec6-span3 bg-secondary p-1 border rounded"><i class="fas fa-play"></i>Play Episode</span>
+            </div> <!-- /sec6-info -->
+        </div> <!-- /sec6-parent -->
+
+        <div class=" sec6-parent border rounded mx-auto row my-5">
+          <div class="sec6-info col-12 col-lg-8 p-4">
+             <h4 class="sec6-title1">Podcast title</h4>
+             <div class="sec6-date  pb-2 w-25 ">
+              <i class="fas fa-calendar-alt"> Mon,May 25th 2020</i>
+              <div class="sec6-line w-50 bg-primary mt-2"></div>
+             </div> <!-- /sec6-date -->
+              <p class="sec6-p  mb-5">Switzerland is considered an unparalleled tourism destination for those who want to enjoy natural scenery, which varies between the towering Alps, sparkling lakes, international museums and natural landscapes, as there is a diversity that suits different categories, although there is no small country in area, but it is full of tourist attractions, as tourism in Switzerland enjoys...</p>
+              <span class="sec6-span bg-secondary p-1 border rounded"><i class="fas fa-tag"></i>Podcast</span>
+              <span class="sec6-span bg-secondary p-1 border rounded"><i class="fas fa-clock"></i>55 mins</span>
+              <span class="sec6-span sec6-span3 bg-secondary p-1 border rounded"><i class="fas fa-play"></i>Play Episode</span>
+            </div> <!-- /sec6-info -->
+            <div class="sec6-img1 col-12 col-lg-4"></div> <!-- /sec6-img -->
+        </div> <!-- /sec6-parent -->
+
+        <div class=" sec6-parent border rounded mx-auto row my-5">
+          <div class="sec6-img sec6-img2 col-12 col-lg-4"></div> <!-- /sec6-img -->
+          <div class="sec6-info col-12 col-lg-8 p-4">
+             <h4 class="sec6-title1">Podcast title</h4>
+             <div class="sec6-date  pb-2 w-25 ">
+              <i class="fas fa-calendar-alt"> Mon,May 25th 2020</i>
+              <div class="sec6-line w-50 bg-info mt-2"></div>
+             </div> <!-- /sec6-date -->
+              <p class="sec6-p  mb-5">Switzerland is considered an unparalleled tourism destination for those who want to enjoy natural scenery, which varies between the towering Alps, sparkling lakes, international museums and natural landscapes, as there is a diversity that suits different categories, although there is no small country in area, but it is full of tourist attractions, as tourism in Switzerland enjoys...</p>
+              <span class="sec6-span bg-secondary p-1 border rounded"><i class="fas fa-tag"></i>Podcast</span>
+              <span class="sec6-span bg-secondary p-1 border rounded"><i class="fas fa-clock"></i>55 mins</span>
+              <span class="sec6-span sec6-span3 bg-secondary p-1 border rounded"><i class="fas fa-play"></i>Play Episode</span>
+            </div> <!-- /sec6-info -->
+        </div> <!-- /sec6-parent -->
+      </div>  <!-- /sec6-parentt -->
+      </section>
+
+      <section class="sec7">
+         <div class="container">
+          <h2 class="text-center title6 mx-auto pb-2  w-25 ">Join Us</h2>
+        <div class="sec7-parent row text-primary">
+          <div class="sec7-contact col-12 col-lg-2 border rounded-5 bg-light pt-3">
+              <p class="sec7-p">Subscribe Now</p>
+              <div class="sec7-img1 mx-auto"></div>
+              <a href="#">Go to Link</a>
+          </div> <!-- /sec7-contact -->
+
+          <div class="sec7-contact col-12 col-lg-2 border rounded-5 bg-light pt-3">
+            <p class="sec7-p">Subscribe Now</p>
+            <div class="sec7-img2 mx-auto"></div>
+            <a href="#">Go to Link</a>
+        </div> <!-- /ec7-contact -->
+
+        <div class="sec7-contact col-12 col-lg-2 border rounded-5 bg-light pt-3">
+          <p class="sec7-p">Subscribe Now</p>
+          <div class="sec7-img3 mx-auto"></div>
+          <a href="#">Go to Link</a>
+      </div> <!-- /ec7-contact -->
+
+      <div class="sec7-contact col-12 col-lg-2 border rounded-5 bg-light pt-3">
+        <p class="sec7-p">Subscribe Now</p>
+        <div class="sec7-img4 mx-auto"></div>
+        <a href="#">Go to Link</a>
+    </div> <!-- /ec7-contact -->
+        </div> <!-- /sec7-parent -->
+      </div>
+      </section>
+
+      <footer>
+        <div class="footer-parent">
+        <div class="footer-parent1 row text-light p-3 pt-5 mt-4 ">
+          <div class="footer-col1 col-12 col-lg-4  ">
+            <div class="footer-line w-75 my-2 "></div>
+            <p class=" my-2 ">Tourism Company</p> 
+            <!-- <p class=" footer-title">Tourism Company</p>  -->
+            <div class="footer-line w-75 my-2 "></div>
+            <p>Tel : 01005488274</p>
+           <p>Address: Egypt</p>
+           <p>WhatsUpp: +201005488274</p>
+          </div>
+
+          <div class="footer-col2 col-12 col-lg-4 ">
+           <div class="footer-line footer-line-center mx-auto w-75  container my-2"></div>
+           <p class=" my-2 ">Important Links</p>
+           <div class="footer-line footer-line-center mx-auto w-75  container my-2"></div>
+           <p><a href="#" class="text-primary footer-ln">Visit Us</a></p>
+           <p><a href="#" class="text-primary footer-ln">Take A Look</a></p>
+           <p><a href="#" class="text-primary footer-ln">Your elegance is important</a></p>
+          </div>
+
+          <div class="footer-col3 col-12 col-lg-4 ">
+        <div class="footer-line  w-75  container my-2" ></div>
+        <p class=" my-2">Vision</p>
+        <div class="footer-line  w-75  container my-2" ></div>
+        <p>Services for all</p>
+           <p>Provide best services</p>
+           <p>You will be better than before</p>
+          </div>
+          <hr class="w-100">
+          <p class="last-p">copyright&copy;tasneem emad ,watches company. all rights</p>
+          <hr class="w-100">
+        </div> <!-- /footer-parent -->
+      </div> <!-- /parent -->
+      </footer>
+    
+   
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script> 
+         var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+          var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+             return new bootstrap.Popover(popoverTriggerEl)
+            }) 
+            document.getElementById('popoverButton').addEventListener('click', function() {
+                    var modal = new bootstrap.Modal(document.getElementById('exampleModal_1'));
+                    modal.show();
+                  });
+
+             document.getElementById('popoverButton_1').addEventListener('click', function() {
+                var modal = new bootstrap.Modal(document.getElementById('exampleModal_1'));
+               modal.show();
+             });
+
+              document.getElementById('popoverButton_2').addEventListener('click', function() {
+               var modal = new bootstrap.Modal(document.getElementById('exampleModal_1'));
+               modal.show();
+                   });
+        </script>
+    </body>
+</html>
